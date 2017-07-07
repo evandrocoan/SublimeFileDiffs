@@ -91,3 +91,6 @@ Thanks to:
 - **Starli0n** for merging the ST2 and ST3 branches into one branch,
 - and for adding the "Diff file with previous" feature
 - **dnsmkl** for helping with diffing temporary files
+
+## License
+See the LICENSE file
