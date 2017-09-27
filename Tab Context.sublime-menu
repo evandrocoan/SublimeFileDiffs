@@ -1,3 +1,14 @@
 [
-
+    {
+        "caption": "Compare With...",
+        "id": "4_row",
+        "children":
+        [
+            { "caption": "-", "id": "1_row" },
+            { "caption": "Git Style Diff", "command": "file_diff_tab" },
+            { "caption": "Git Style Diff Menu", "command": "file_diff_menu" },
+            { "caption": "-", "id": "2_row" },
+            { "caption": "-", "id": "3_row" },
+        ]
+    },
 ]
