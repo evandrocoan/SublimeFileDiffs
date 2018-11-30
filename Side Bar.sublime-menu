@@ -1,12 +1,24 @@
 [
+    { "caption": "-", "id": "1_row" },
+    { "caption": "-", "id": "2_row" },
     {
         "caption": "Project Specific",
         "id": "project-specific",
         "children":
         [
-            { "caption": "-", "id": "1_row" },
+            { "caption": "-", "id": "1_irow" },
             { "caption": "FileDiffs Menu", "command": "file_diff_menu" },
             { "caption": "Diff with File in Project…", "command": "file_diff_file" },
         ]
     },
+    { "caption": "-", "id": "3_row" },
+    { "caption": "-", "id": "4_row" },
+    { "caption": "-", "id": "5_row" },
+    { "caption": "-", "id": "6_row" },
+    { "caption": "-", "id": "7_row" },
+    { "caption": "-", "id": "8_row" },
+    { "caption": "-", "id": "9_row" },
+    { "caption": "-", "id": "10_row" },
+    { "caption": "-", "id": "11_row" },
+    { "caption": "-", "id": "12_row" },
 ]
