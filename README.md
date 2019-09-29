@@ -20,33 +20,29 @@ Check the [wiki][] for more tips
 
 [wiki]: https://github.com/colinta/SublimeFileDiffs/wiki
 
-Installation
-------------
 
-### Package Control (Easiest)
+## Installation
 
-1. Using Package Control, install `FileDiffs`
+### By Package Control
 
-2. Install keymaps for the commands (see Example.sublime-keymap for my preferred keys)
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `FileDiffs` and press <kbd>Enter</kbd>
+1. Install keymaps for the commands (see Example.sublime-keymap for my preferred keys)
 
-### Sublime Text 3
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
-1. Open the Sublime Text Packages folder
-    - OS X: `~/Library/Application Support/Sublime Text 3/Packages/`
-    - Windows: `%APPDATA%/Sublime Text 3/Packages/`
-    - Linux: `~/.Sublime Text 3/Packages/` or `~/.config/sublime-text-3/Packages`
-
-2. Clone this repo
-
-    ```
-    # Over SSH
-    git clone git@github.com:colinta/SublimeFileDiffs
-
-    # Over HTTPS
-    git clone https://github.com/colinta/SublimeFileDiffs.git
-    ```
-
-3. Install keymaps for the commands (see Example.sublime-keymap for my preferred keys)
 
 ### Sublime Text 2
 
